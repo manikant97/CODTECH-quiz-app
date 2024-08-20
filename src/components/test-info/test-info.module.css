@@ -1,0 +1,43 @@
+.wrapper{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    margin-top: 7rem;
+    gap: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 3rem 1.5rem;
+    border-radius: 10px;
+}
+.input{
+    outline: none;
+    border: 1px solid lightgray;
+    height: 2rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+.select{
+    outline: none;
+    border: 1px solid lightgray;
+    height: 2rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+
+}
+.btnWrapper{
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+}
+.btnWrapper > p {
+    position: absolute;
+    top: -2rem;
+    color: red;
+    font-size: 0.7rem;
+}
+.btnStyle{
+    height: 2.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+}

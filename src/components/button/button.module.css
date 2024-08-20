@@ -1,0 +1,8 @@
+.defaultStyle {
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}

@@ -1,0 +1,50 @@
+.wrapper{
+    height: 100vh;
+   composes : flexBox from '../../styles/common-layouts.module.css'
+
+}
+.card{
+    /* border: 1px solid red; */
+    width: 30%;
+    padding: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.card > div  {
+    /* flex : 1; */
+
+}
+.question{
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+
+}
+.options{
+    composes : clumnFlexbox from '../../styles/common-layouts.module.css' ;
+    gap: 1rem;
+
+}
+.options > div {
+    display: flex;
+    gap: 0.5rem;
+}
+.options > div > input {
+    cursor: pointer;
+}
+.btnText{
+    height: 2.3rem;
+    border-radius: 10px;
+    width: 7rem;
+    margin-top: 2rem;
+}
+.supportImage{
+    height: 10rem;
+    width: 10rem;
+}
+.leftSec {
+    flex-grow: 1 !important;
+}
